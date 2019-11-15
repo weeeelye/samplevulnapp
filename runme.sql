@@ -19,4 +19,4 @@ CREATE TABLE Shop.baduser (id bigint auto_increment primary key, name varchar(25
 CREATE TABLE Shop.subscribe (id bigint auto_increment primary key, email varchar(256) charset utf8);
 
 #contact contact(id, Name, Email,Subject,Message)
-CREATE TABLE Shop.contact (id bigint auto_increment primary key, email varchar(256) charset utf8, subject varchar(256) charset utf8, message varchar(256) charset utf8);
+CREATE TABLE Shop.contact (id bigint auto_increment primary key, email varchar(256) charset utf8, name varchar(128) charset utf8, subject varchar(256) charset utf8, message varchar(256) charset utf8);

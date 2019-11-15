@@ -12,7 +12,7 @@ if ($mysqli->connect_error) {
     die('Error : ('. $mysqli->connect_errno .') '. $mysqli->connect_error);
 }
 
-$mysqli->query("DELETE * FROM contacts");
+$mysqli->query("DELETE FROM contact");
 mysqli_close($mysqli);
 ?>
 

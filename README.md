@@ -2,10 +2,11 @@
 
 How to run:
 1) Install docker
-2) git clone <URL of this repo>
-3) docker build --no-cache -t shopshoplah:latest .
-4) docker run -p 80:80 -it shopshoplah:latest
-5) Browse to http://127.0.0.1/
+2) git clone https://github.com/weeeelye/samplevulnapp.git
+3) cd samplevulnapp
+4) docker build --no-cache -t shopshoplah:latest .
+5) docker run -p 80:80 -it shopshoplah:latest
+6) Browse to http://127.0.0.1/
 
 App is pre-seeded with the following accounts:
 
